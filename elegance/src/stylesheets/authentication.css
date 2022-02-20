@@ -1,0 +1,74 @@
+.form-control{
+    box-shadow: none;
+
+}
+
+.form-control:focus{
+    margin-top: 15px !important;
+    box-shadow: none !important;
+}
+
+input, textarea{
+    margin-top: 15px !important;
+}
+
+.register-form{
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgba(245, 245, 235);
+    z-index: 999 ;
+}
+
+.register-parent{
+    height: 100vh;
+    background-color: rgb(228, 216, 236);
+}
+
+.register-parent .row{
+    height: 100vh;
+    align-items: center;
+}
+
+.register-top{
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color:#541479;
+}
+
+.z1{
+    z-index: 1 !important;
+}
+
+
+.login-form{
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: rgba(245, 245, 235);
+    z-index: 999 ;
+}
+
+.login-parent{
+    height: 100vh;
+    background-color: rgb(228, 216, 236);
+}
+
+.login-parent .row{
+    height: 100vh;
+    align-items: center;
+}
+
+.login-bottom{
+    height: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#541479;
+}
+
+.z1{
+    z-index: 1 !important;
+}

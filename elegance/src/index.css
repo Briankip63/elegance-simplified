@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Playfair+Display:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, html{
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: 'Playfair Display', serif;
+}
